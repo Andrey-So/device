@@ -43,11 +43,7 @@ input[type="radio"].visually-hidden {
     padding-top: 40px;
 }
 
-<<<<<<< HEAD
 .header {
-=======
-.main-header {
->>>>>>> f7ae30009e5a5e158c03082d8140f30b43105a72
   font-family: "Gilroy", Arial, sans-serif;
   width: 100%;
   height:  299px;
@@ -56,159 +52,153 @@ input[type="radio"].visually-hidden {
   flex-direction: column;
 }
 
-<<<<<<< HEAD
 .header h1 {
-=======
-.main-header h1 {
->>>>>>> f7ae30009e5a5e158c03082d8140f30b43105a72
   margin: 0;
   padding: 0;
   text-transform: uppercase;
-  padding-left: 58px;
+  padding-left: 57px;
   margin-top: -31px;
   font-size: 49px;
+  letter-spacing: 0px;
 }
 
-<<<<<<< HEAD
 .all-headers {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 242px;
 }
 
 .top-header {
-  height: 100px;
+  height: 127px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .top-top-header {
-=======
-.top-header {
->>>>>>> f7ae30009e5a5e158c03082d8140f30b43105a72
-  width: 1039px;
+  width: 1042px;
   margin-left: auto;
   margin-right: auto;
+  /*margin-top: 22px;*/
   display: flex;
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
 .top-top-header-left {
-=======
-.top-header-left {
->>>>>>> f7ae30009e5a5e158c03082d8140f30b43105a72
   width: 500px;
   display: flex;
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
 .top-top-header-right {
-=======
-.top-header-right {
->>>>>>> f7ae30009e5a5e158c03082d8140f30b43105a72
-  width: 500px;
+  width: 501px;
   display: flex;
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
 .top-top-header-right-left {
-=======
-.top-header-right-left {
->>>>>>> f7ae30009e5a5e158c03082d8140f30b43105a72
-  width: 50%;
+  width: 195px;
   display: flex;
   justify-content: space-between;
+  /*margin-left: 10px;*/
+}
+.top-top-header-right-left a {
+  font-family: "OpenSans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 15.4px;
+  letter-spacing: 0.4px;
+  color: #000000;
+  padding-left: 25px;
 }
 
-<<<<<<< HEAD
 .top-top-header-right-right {
-=======
-.top-header-right-right {
->>>>>>> f7ae30009e5a5e158c03082d8140f30b43105a72
-  width: 215px;
+  width: 197px;
   display: flex;
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
 .top-bottom-header {
-=======
-.nav-menu {
->>>>>>> f7ae30009e5a5e158c03082d8140f30b43105a72
-  width: 1039px;
+  width: 1047px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
 .top-bottom-header-left {
-=======
-.nav-menu-left {
->>>>>>> f7ae30009e5a5e158c03082d8140f30b43105a72
-  width: 500px;
+  width: 221px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
-<<<<<<< HEAD
 .top-bottom-header-right {
-=======
-.nav-menu-right {
->>>>>>> f7ae30009e5a5e158c03082d8140f30b43105a72
-  width: 500px;
+  width: 504px;
   display: flex;
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
 .top-bottom-header-right-left {
-=======
-.nav-menu-right-left {
->>>>>>> f7ae30009e5a5e158c03082d8140f30b43105a72
-  width: 270px;
+  width: 273px;
   display: flex;
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
 .top-bottom-header-right-right {
-=======
-.nav-menu-right-right {
->>>>>>> f7ae30009e5a5e158c03082d8140f30b43105a72
-  width: 50%;
+  width: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
-<<<<<<< HEAD
 .bottom-header {
-  height: 100px;
+  height: 104px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .hidden-menu {
-  width: 550px;
-  margin-left: 61px;
+  width: 616px;
+  height: 89px;
+  margin-left: 26px;
   margin-right: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-=======
-.hidden-menu {
-  width: 1039px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
->>>>>>> f7ae30009e5a5e158c03082d8140f30b43105a72
+  justify-content: space-around;
 }
 
 .hidden-menu ul {
   list-style: none;
-<<<<<<< HEAD
   padding: 0;
   margin: 0;
-=======
->>>>>>> f7ae30009e5a5e158c03082d8140f30b43105a72
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "OpenSans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+}
+
+.top-top-header-right-right a {
+  font-family: "OpenSans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 15.4px;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+
+.top-bottom-header-right-left a,
+.top-bottom-header-right-right a,
+.top-bottom-header-left a {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 3.55px;
+}
+
+.top-bottom-header-left a {
+  /*letter-spacing: 3px;*/
 }
