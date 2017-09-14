@@ -344,12 +344,3 @@ input[type="radio"].visually-hidden {
   right: 460px;
   background-color: #ffffff;
 }
-
-.slider-body-left {
-  display: block;
-}
-
-.slider-body-left img {
-  margin-left: 20px;
-  margin-bottom: 30px;
-}
