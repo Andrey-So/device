@@ -44,7 +44,9 @@ slider3Button.addEventListener("click", function(evt) {
 var deliveryButton = document.querySelector(".delivery-button");
 var guaranteeButton = document.querySelector(".guarantee-button");
 var creditButton = document.querySelector(".credit-button");
-var deliveryBanner = document.querySelector
+var deliveryBanner = document.querySelector(".banner-delivery");
+var guaranteeeBanner = document.querySelector(".banner-guarantee");
+var creditBanner = document.querySelector(".banner-credit");
 
 deliveryButton.addEventListener("click", function(evt) {
   console.log("button-1");
@@ -53,7 +55,10 @@ deliveryButton.addEventListener("click", function(evt) {
   guaranteeButton.classList.remove("active-menu-item");
   guaranteeButton.classList.add("service-menu-item");
   creditButton.classList.remove("active-menu-item");
-  creditButton.classList.add("service-menu-item");  
+  creditButton.classList.add("service-menu-item");
+  deliveryBanner.classList.remove("visually-hidden");
+  guaranteeeBanner.classList.add("visually-hidden");
+  creditBanner.classList.add("visually-hidden");
 });
 
 guaranteeButton.addEventListener("click", function(evt) {
@@ -64,6 +69,9 @@ guaranteeButton.addEventListener("click", function(evt) {
   guaranteeButton.classList.add("active-menu-item");
   creditButton.classList.remove("active-menu-item");
   creditButton.classList.add("service-menu-item");
+  deliveryBanner.classList.add("visually-hidden");
+  guaranteeeBanner.classList.remove("visually-hidden");
+  creditBanner.classList.add("visually-hidden");
 });
 
 creditButton.addEventListener("click", function(evt) {
@@ -74,4 +82,7 @@ creditButton.addEventListener("click", function(evt) {
   guaranteeButton.classList.add("service-menu-item");
   creditButton.classList.remove("service-menu-item");
   creditButton.classList.add("active-menu-item");
+  deliveryBanner.classList.add("visually-hidden");
+  guaranteeeBanner.classList.add("visually-hidden");
+  creditBanner.classList.remove("visually-hidden");
 });

@@ -682,6 +682,10 @@ input[type="radio"].visually-hidden {
   width: 156px;
 }
 
+.active-menu-item:focus::before {
+  width: 277px;
+}
+
 .service-banner {
   position: relative;
   width: 810px;
